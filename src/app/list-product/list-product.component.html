@@ -1,0 +1,6 @@
+<h1>List  Product</h1>
+<app-product *ngFor="let p of listProducts" [product]="p"
+(inkrementLikeEvent)="incrementLike($event)"
+>
+
+</app-product>
